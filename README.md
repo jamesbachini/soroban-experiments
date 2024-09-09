@@ -9,7 +9,7 @@ stellar keys address alice
 cargo test
 cargo build --target wasm32-unknown-unknown --release
 stellar contract deploy  --wasm target/wasm32-unknown-unknown/release/hello_world.wasm --source alice --network testnet
-stellar contract invoke --id CCX7VRTYX22TFFQYT4W4WM3ADUSMNZ752IPD5G4CRGBCDER7NXTJRBZZ --source alice --network testnet -- hello --to RPC
+stellar contract invoke --id CONTRACT_HERE --source alice --network testnet -- hello --to RPC
 
 ## Optimization
 
@@ -20,4 +20,6 @@ stellar contract optimize --wasm target/wasm32-unknown-unknown/release/hello_wor
 
 https://developers.stellar.org/docs/build/smart-contracts/example-contracts
 
-stellar contract invoke --id CBJUHDREKER4OCMZHRAGS7B7PWWVNM5NFC64WEU4FJSKDAMYNN5VVL5G --source alice --network testnet --to RPC
+## Misc Notes
+
+stellar contract invoke --id CBJUHDREKER4OCMZHRAGS7B7PWWVNM5NFC64WEU4FJSKDAMYNN5VVL5G --source alice --network testnet -- data_types
