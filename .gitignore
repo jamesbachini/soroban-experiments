@@ -1,6 +1,5 @@
-# Rust's output directory
 target
-
-# Local Soroban settings
 .soroban
-soroban-examples/
+.env
+stellar-sdk-examples/.env
+stellar-sdk-examples/node_modules/

@@ -36,3 +36,9 @@ https://developers.stellar.org/docs/build/smart-contracts/example-contracts
 ## Misc Notes
 
 stellar contract invoke --id CBJUHDREKER4OCMZHRAGS7B7PWWVNM5NFC64WEU4FJSKDAMYNN5VVL5G --source alice --network testnet -- data_types
+
+https://stellarchain.io/
+
+Wallet https://rabet.io/
+
+
