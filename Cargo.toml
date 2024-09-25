@@ -1,7 +1,7 @@
 [workspace]
 resolver = "2"
 members = [
-  "contracts/data_types*",
+  "contracts/keyvalue*",
 ]
 
 [workspace.dependencies]
